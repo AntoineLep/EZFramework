@@ -10,6 +10,7 @@
     </head>
     <body>
         <?php echo $_viewContent; ?>
+        
         <?php echo $content; ?>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
