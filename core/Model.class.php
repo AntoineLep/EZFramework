@@ -1,14 +1,14 @@
 <?php
-	class Model {
+    class Model {
 
-		/**
-		* (PDO) Database PDO singleton instance
-		*/
-		protected static $db = null;
+        /**
+        * (PDO) Database PDO singleton instance
+        */
+        protected $db = null;
 
-		public function __construct(){
-			if(!self::$db)
-				self::$db = DB::getInstance();
-		}
-	}
+        public function __construct(){
+            if(!$this->db)
+                $this->db = DB::getInstance();
+        }
+    }
 ?>
